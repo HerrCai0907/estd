@@ -1,0 +1,6 @@
+cc_library(
+    name = "estd",
+    hdrs = glob(["**/*.hpp"]),
+    strip_include_prefix = ".",
+    visibility = ["//visibility:public"],
+)
